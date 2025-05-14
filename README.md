@@ -1,130 +1,93 @@
-# SOC 2 Compliance Learning Repository
+# SOC 2 Compliance Knowledge Base
 
-Welcome to my SOC 2 Compliance learning repository. As a cybersecurity enthusiast aiming for mastery in governance, risk, and compliance (GRC), this repository serves as my structured knowledge base while I explore and document the full scope of SOC 2 Compliance.
 
----
-
-##  Table of Contents
-
-1. [SOC 2 Fundamentals](#soc-2-fundamentals)
-2. [Trust Services Criteria](#trust-services-criteria)
-3. [Policy Templates](#policy-templates)
-4. [Technical Implementation](#technical-implementation)
-5. [Tools and Frameworks](#tools-and-frameworks)
-6. [Lab Setups and Case Studies](#lab-setups-and-case-studies)
-7. [References and Resources](#references-and-resources)
-8. [Usage](#usage)
-9. [Contribution Guidelines](#contribution-guidelines)
-10. [License](#license)
+This repository serves as a comprehensive reference of my personal learning on SOC 2 compliance. It compiles insights, notes, and explanations gathered from multiple sources including online courses, audit guides, cybersecurity documentation, and industry blogs. The structure mirrors the logical flow of a SOC 2 audit lifecycle, making it easier to revisit key concepts and apply them to real-world scenarios.
 
 ---
 
-##  SOC 2 Fundamentals
+##  Course Overview
 
-A foundational understanding of:
-- What is SOC 2?
-- Types of SOC reports
-- The audit lifecycle
-- Key terminologies and definitions
+This knowledge base is structured in modules reflecting the logical progression of a SOC 2 engagement — from introduction through audit execution and closure.
 
->  See [`01_SOC2_Fundamentals/`](./01_SOC2_Fundamentals/notes.md)
+###  Completed Modules:
+
+| Module | Title                                | Status     |
+|--------|----------------------------------------|------------|
+| 1      | Introduction to SOC 2                 | ✅ Completed |
+| 2      | The Planning Phase                    | ✅ Completed |
+| 3      | Framework Subject Matters             | ✅ Completed |
+| 4      | Prepare For Implementation            | ✅ Completed |
+| 5      | Security Management Procedures        | ✅ Completed |
+| 6      | Initiating a SOC 2 Audit              | ✅ Completed |
+| 7      | Monitoring and Control                | ✅ Completed |
+| 8      | Conducting a SOC 2 Audit              | ✅ Completed |
+| 9      | Closing and Follow-Up                 | ✅ Completed |
+| -      | Glossary                              | ✅ Completed |
 
 ---
 
-##  Trust Services Criteria
+##  What is SOC 2?
 
-The five key criteria:
+**SOC 2 (System and Organization Controls 2)** is a voluntary compliance framework developed by the AICPA. It ensures that service providers securely manage customer data to protect the interests of the organization and the privacy of its clients. It focuses on five **Trust Service Criteria (TSC)**:
 - Security
 - Availability
-- Confidentiality
 - Processing Integrity
+- Confidentiality
 - Privacy
 
->  See [`02_Trust_Services_Criteria/`](./02_Trust_Services_Criteria/)
+---
+
+##  Repository Highlights
+
+### Key Concepts
+
+- **Audit Lifecycle** – Detailed walkthrough of pre-audit, execution, and post-audit procedures.
+- **Deviations & Rebuttals** – How management should handle control failures and provide formal responses.
+- **Complementary User Entity Controls (CUECs)** – Shared responsibilities between service providers and customers.
+- **Sub-Service Carve Outs** – Managing third-party dependencies outside the audit scope.
+- **Corrective Action Plans** – Post-audit retrospectives to improve control performance.
+- **Marketing & Logo Use** – Guidelines for publicizing your SOC 2 compliance.
 
 ---
 
-##  Policy Templates
+##  Glossary Terms You Should Know
 
-Common security policies aligned to SOC 2 controls:
-- Access Control
-- Logging & Monitoring
-- Incident Response
-- Data Retention
-
->  See [`03_Policy_Templates/`](./03_Policy_Templates/)
-
----
-
-##  Technical Implementation
-
-Step-by-step implementation notes:
-- Logging using Wazuh, Auditd
-- RBAC and IAM
-- Disk encryption and endpoint hardening
-
->  See [`04_Technical_Implementation/`](./04_Technical_Implementation/)
+- **Gap Analysis** – Assessment of the current vs. desired control maturity.
+- **Risk Assessment** – Evaluation of potential risks to systems and data.
+- **CIA (AIC) Triad** – Confidentiality, Integrity, and Availability framework.
+- **Compensating Controls** – Alternative controls when standard implementation is infeasible.
+- **Audit Scope** – Boundaries of systems, services, and controls under review.
+- **Technical, Procedural, and Administrative Controls** – Categories of organizational safeguards.
 
 ---
 
-##  Tools and Frameworks
+##  Ideal For
 
-Overview of tools to automate or validate SOC 2 controls:
-- Wazuh (SIEM)
-- Auditd (Linux logging)
-- osquery (endpoint visibility)
-- Cloud-native tools (AWS Config, Azure Security Center)
-
->  See [`05_Tools_and_Frameworks/`](./05_Tools_and_Frameworks/)
+- Aspiring Security Engineers
+- SOC Analysts
+- GRC Professionals
+- Cloud Security Architects
+- Founders preparing for SOC 2 Type I/II readiness
 
 ---
 
-##  Lab Setups and Case Studies
+##  Best Practices
 
-Hands-on application of theory:
-- Building a mini SOC 2 lab
-- Real-world compliance simulation for a startup
-- Cloud control mapping (AWS/GCP)
-
-> 📁 See [`06_Lab_Setups_and_Case_Studies/`](./06_Lab_Setups_and_Case_Studies/)
-
----
-
-##  References and Resources
-
-Curated sources of learning:
-- Books and whitepapers
-- Blogs and communities
-- Relevant certifications and learning paths
-
->  See [`07_References_and_Resources/`](./07_References_and_Resources/)
+- Start with a **Gap Analysis** and roadmap to maturity.
+- Involve **cross-functional teams** early in the lifecycle.
+- Maintain **evidence and audit trails** throughout the year.
+- Conduct **lessons learned** sessions after audit closure.
+- Communicate with the **marketing team** post-attestation for awareness campaigns.
 
 ---
 
-##  Usage
+##  Licensing
 
-This repository is meant for **educational** and **self-learning** purposes. It’s intended for students, professionals, and GRC practitioners who want to:
-- Understand SOC 2 holistically
-- Learn how to implement real-world controls
-- Build a compliance-oriented mindset
+This content is for educational and internal enablement purposes only. Compliance documentation should always be validated by certified auditors and legal counsel before official use.
 
 ---
 
-##  Contribution Guidelines
+> **Maintained by:** [Parveen Birthaliya– Cybersecurity Enthusiast](https://linkedin.com/in/parveen‑birthaliya‑66b413314)  
+> For feedback or suggestions, connect on LinkedIn.
 
-If you would like to contribute:
-1. Fork the repository
-2. Create a feature branch (`feature/policy-updates`)
-3. Commit your changes with context
-4. Open a pull request (PR) with a clear description
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
-
----
-
-> *Maintained with intent to demystify compliance for future cybersecurity leaders.*
 
